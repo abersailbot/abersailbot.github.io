@@ -3162,6 +3162,10 @@
 				padding: 4em 2em 4em 2em;
 			}
 
+            #banner #bannerlogo img{
+                width: 100%;
+            }
+
 		}
 
 /* Main */
