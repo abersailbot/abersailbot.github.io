@@ -3097,6 +3097,10 @@
 		text-align: center;
 	}
 
+	#banner #bannerlogo img{
+                width: 40%;
+    }
+
 		#banner:last-child {
 			margin-bottom: 0;
 		}
@@ -3141,6 +3145,10 @@
 			#banner {
 				padding: 6em 2em 6em 2em;
 			}
+
+				#banner #bannerlogo img{
+                    width: 60%;
+                }
 
 				#banner br {
 					display: none;
