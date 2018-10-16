@@ -25,6 +25,30 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   ls -l  | list all files with their times/dates, sizes and permissions
   ls -a | list all hidden files
   ls -lrt | list all files with metadata, in reverse time order
+  ln -s (filename) (linkname) | Makes a symbolic link from (filename) to (linkname)
+  ln (filename) (linkname) | Makes a hard link from (filename) to (linkname), both original and link look like a real file.
+  chmod 700 (filename) | Give owner read, write and execute permission, give nobody else anything.
+  chmod 600 (filename) | Give owner read and write permission, give nobody else anything.
+  chmod 754 (filename) | Give owner read and write permission, give group read and execute, everyone else read only.
+  chmod u+w (filename) | add write permission for the owner
+  chmod g+w (filename) | add write permission for the group
+  chmod o+w (filename) | add write permission for everyone else
+  
+  Permission numbers 
+  * read = 4
+  * write = 2
+  * execute = 1
+  
+  Characters
+  * u = user
+  * g = group
+  * o = others
+  * a = everyone
+  * r = read
+  * w = write
+  * x = execute
+
+
   
  ### Filesystem structure
    Directory | Description
@@ -99,6 +123,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   curl http://localhost | Download's a webpage displays it on screen
   wget http://localhost | Download's a webpage and saves it as a file
   ifconfig | Show network interfaces, ethX are wired, wlanX are wireless, lo is loopback
+  iwconfig | Show wifi config
   ip route show | Show system routing table
   nc (hostname) (port) | Connects to a network service on a remote host. 
   cat /etc/udev/rules.d/10-network-device.rules | Udev rules for network devices, sets interface names
@@ -120,7 +145,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
 ## User management
   Directory | Description
   ------- | -----------
-  w | Show who's logged in
+  w | Show who's logged in, system uptime and load average.
   sudo adduser (username) | Add a new user (requires root)
   groups (username) | Show which groups a user is in.
   sudo usermod -aG (groupname(s)) (username) | Add's a user to some groups. Anyone wanting access to serial ports must be in dialout group.
@@ -135,7 +160,9 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   free | Show how much RAM is free
   cat /proc/meminfo | Show info about the RAM
   cat /proc/cpuinfo | Show info about the CPUs
-  dd | Directly writes or reads data from a block device (memory card, disk or flash drive)
+  cat /proc/partitions | Show the partitions of all disks on the system
+  fdisk -l (devicename) | Show the parttions on (devicename)
+  dd if=(imagefile) of=(output device)| Directly writes raw data to a block device (memory card, disk or flash drive) from an image file. Useful for reflashing SD cards. Reverse if and of to backup the SD card. Use with caution, can wipe out data if not careful. Always double check device names with lsblk.
   stty -F(serial port) | Show settings of a serial port
   screen (serialport) (baud rate) | Connects to a serial port. Press CTRL a then k to exit.
   cgps | Fancy command line GPS status
@@ -164,20 +191,23 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
 ## Misc
   Directory | Description
   ------- | -----------
-  date | Show current time and date
+  date | Show current time and date.  Can also set date if run as root.
   ntpq -p | Show status of network time protocol. Used for syncing time from internet and GPS
+  ntpdate (ntpserver) | force the time to be updated from (ntpserver). ntpd can't be running when this happens.
   sudo halt | Shutdown
   sudo poweroff | Shutdown and turn off power (doesn't make a difference on a pi)
   sudo reboot | Reboots the system
   export PATH=$PATH:/home/me/myprogram | adds /home/me/myprogram to the PATH environment variable
   echo $PATH | shows the contents of the PATH environment variable
   env | shows all environment variables
+  diff (file1) (file2) | show the differences between two files, diff -c has nicer formatting.
   
 
 ## Redirects
   Directory | Description
   ------- | -----------
-  (command) > (filename) | Sends the output from (command) to (filename)
+  (command) > (filename) | Sends the output from (command) to (filename) and overwrites (filename)
+  (command) >> (filename) | Sends the output from (command) to (filename) and appends (filename)
   ls > output | sends the output of ls to the file output
   (command) 2>&1 | Sends output of standard error to standard out.
   (command) > /dev/null | sends the output of a command to /dev/null which just discards it. Useful if you want to throw away and ignore the output instead of having it clutter up the screen.
