@@ -142,6 +142,8 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo rpi-update | Updates firmware (and kernels??)
   cat /boot/cmdline.txt  | Raspberry Pi kernel command line config
   cat /boot/config.txt  | Raspberry Pi hardware configuration, set hdmi_force_hotplug=1
+  vcgencmd | Controls lots of special hardware things. 
+  vcgencmd measure_temp | measures CPU temperature
   
 ## Misc
   Directory | Description
