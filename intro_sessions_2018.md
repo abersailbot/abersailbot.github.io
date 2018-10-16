@@ -13,5 +13,5 @@ If you are already confident about some of these subjects then still come along 
 * November 21st 10am - Introduction to Python (room TBC)
 * November 28th 10am - Introduction to our code: Boatd (room TBC)
 * December 5th 10am - How we communicate with the boat, Telemetry and Ground stations. (Digital Systems Laboratory - 1.13 Maths and Physics)
-* December 12th 10am - Essential Linux commands for robotic sailing: tmux and mosh (room TBC)
+* December 12th 10am - Essential Linux commands for robotic sailing: SSH keys, mosh and tmux (room TBC)
 * January 30th 10am - How to sail (room TBC)
