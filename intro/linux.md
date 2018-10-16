@@ -69,6 +69,22 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo service (servicename) start | Start a service, must be root
   sudo service (servicename) restart | Restarts a service, must be root
   sudo service (servicename) reload | Reloads a service's config files, must be root
+  systemctl status (servicename) | Show status of a system process (systemd). 
+  sudo systemctl stop (servicename) | Stop a service (systemd), must be root
+  sudo systemctl start (servicename) | Start a service (systemd), must be root
+  sudo systemctl restart (servicename) | Restarts a service (systemd), must be root
+  sudo systemctl reload (servicename) | Reloads a service's config files (systemd), must be root
+  sudo systemctl disable (servicename) | disables the systemd service running on startup
+  sudo systemctl enable (servicename) | enables the systemd service to run on startup
+  ctrl c | press this to stop most programs running
+  ctrl z | press this to suspend a program. 
+  fg | continue suspended program in the foreground
+  bg | continue suspended program in the background
+  kill (processid) | requests a process terminate, (processid) is a number shown in the PID column in ps/top/htop.
+  killall (processname) | terminate a process of the name (processname)
+  kill -KILL (processid) | force a process to stop, it will not be given a chance to save anything
+  killall -KILL (processname) | kill a process by name
+  (program) & | run (program) in the background. Its output will still appear on your screen,possibly on top of other things
 
 ## File transfer
   Directory | Description
@@ -153,37 +169,83 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo halt | Shutdown
   sudo poweroff | Shutdown and turn off power (doesn't make a difference on a pi)
   sudo reboot | Reboots the system
+  export PATH=$PATH:/home/me/myprogram | adds /home/me/myprogram to the PATH environment variable
+  echo $PATH | shows the contents of the PATH environment variable
+  env | shows all environment variables
   
 
 ## Redirects
-  <command> > <filename>
-  cat > output
+  Directory | Description
+  ------- | -----------
+  (command) > (filename) | Sends the output from (command) to (filename)
+  ls > output | sends the output of ls to the file output
+  (command) 2>&1 | Sends output of standard error to standard out.
+  (command) > /dev/null | sends the output of a command to /dev/null which just discards it. Useful if you want to throw away and ignore the output instead of having it clutter up the screen.
+  
 
 
 ## Pipes
-  cat <filename> | more
+  cat (filename) | more
   cat /etc/systemd/system.conf  | more
-  head -n 20 <filename>
-  tail -n 20 <filename>
-  tail -20 <filename> 
+  
+  Directory | Description
+  ------- | -----------
+  head -n 20 (filename) | Displays the first 20 lines
+  tail -n 20 (filename) | Displays the last 20 lines
+  tail -20 (filename) | Also displays the last 20 lines
+    
   
 ## Compression
-  zip -9 -r <zipfile> <directory>
-  unzip -l <zipfile>
-  unzip <zipfile>
-  tar cvfz <targzfile> <directory>
-  tar tvfz <targzfile>
-  tar xvfz <targzfile>
+  Directory | Description
+  ------- | -----------
+  zip -9 -r (zipfile) (directory) | zip all files in (directory) and store them in (zipfile)
+  unzip -l (zipfile) | list the contents of (zipfile)
+  unzip (zipfile) | extract the contents of (zipfile)
+  tar cvfz (targzfile) (directory) | create a compressed tar archive of (directory) and store it in (targzfile). These usually have the extension .tar.gz or .tgz
+  tar tvfz (targzfile) | List contents of a tar.gz file
+  tar xvfz (targzfile) | Extract a tar.gz file
 
 ### Sending compressed files over a network
-  nc -l <listenport> | tar xvfz -
-  tar cvfz - <directory> | nc <remotehost> <remoteport> 
-  tar cvfz - <directory> | ssh <username>@<remotehost> 'tar xvfz -'
+On the receiving system, run nc and pipe its output to tar xvfz.
+```nc -l <listenport> | tar xvfz -```
+
+On sending system run tar cvfz and send its output to nc. 
+Note that - means send output to the screen/pipe.
+```tar cvfz - <directory> | nc <remotehost> <remoteport> ```
+
+Send output of tar to SSH, have SSH run the extract command on the remote system. 
+```tar cvfz - <directory> | ssh <username>@<remotehost> 'tar xvfz -'```
 
 ## Finding things
-  grep <some text> <filename>
-  ps aux | grep <some process>
-  dpkg -l | grep <some package>
-  find <directory name> -name <filename>
-  find <directory name> -name <filename> -exec <some action>
-
+  Directory | Description
+  ------- | -----------
+  grep (some text) (filename) | Finds text (and regular expressions) in a file
+  ps aux \| grep (some process) |  Search the output of ps aux for text
+  dpkg -l \| grep (some package) | Search the output of dpkg -l for a package name
+  find (directory name) -name (filename) | finds (filename) in (directory name), can include wildcards,e.g. a* means all files beginning with an a
+  find (directory name) -name (filename) -exec (some action) {} \\; | finds files and runs a program on them. {} is substitued for the filename.
+  
+## Text manipulation
+  Directory | Description
+  ------- | -----------
+  cat (filename) \| cut -b 2-3 | Show the second and third character of each line in a file
+  cat (filename) \| awk '{print $1}' | Show everything up to the first space on each line of a file
+  cat (filename) \| awk -F, '{print $1}' | Show everything up to the first comma on each line of a file
+  cat (filename) \| sed 's/a/A/' | Change the first lower case a to an upper case A on each line of a file
+  cat (filename) \| sed 's/a/A/g' | Change all lower case a's to an upper case A's on each line of a file
+  cat (filename) \| tr -d '\n' | deletes all newlines in each line of a file
+  
+  cut,awk,sed and tr can all work on input from both a pipe or they can be given a filename.
+  tr -d '\n' (filename) is the same as cat (filename) | tr -d '\n'
+  
+  ## Text Editors
+    Directory | Description
+    ------- | -----------
+      vi    | Very simple editor, a bit strange to use as it has command and insert modes. Press escape to switch between them. i inserts, a appends, :wq saves and exist,:q! exits without saving.
+      emacs | An operating system with a built in text editor. Press ctrl x ctrl c to exit.
+      nano | More intuitive for beginners but less powerful than vi or emacs. Press ctrl x to exit.
+      
+   
+      
+  
+ 
