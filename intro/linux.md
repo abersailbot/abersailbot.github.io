@@ -1,8 +1,8 @@
 # Introduction to Linux for Robotic Sailing
 
 ## Logging in
-Connect to AberSailbot-dewi wifi
-ssh test@192.168.40.1
+1. Connect to AberSailbot-dewi wifi
+2. ssh test@192.168.40.1```
 
 SSH is built into Windows 10 April 2018 update. If you have an older version download [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [MobaXTerm](https://mobaxterm.mobatek.net/). 
 
