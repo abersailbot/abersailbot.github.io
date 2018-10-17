@@ -7,6 +7,7 @@
 SSH is built into Windows 10 April 2018 update. If you have an older version download [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [MobaXTerm](https://mobaxterm.mobatek.net/). 
 
 ## Filesystem commands
+
   Command | Description
   -------- | -----------
   mount | Show mounted filesystems
@@ -112,6 +113,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   (program) & | run (program) in the background. Its output will still appear on your screen,possibly on top of other things
 
 ## File transfer
+
   Directory | Description
   ------- | -----------
   scp (filename) (username)@(hostname):(remote dir name) | Copies a file to a remote host
@@ -119,6 +121,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   scp (username)@(hostname):(remote dir and file name) (filename) | Copies a file from a remote host
 
 ## Networking
+
   Directory | Description
   ------- | -----------
   curl http://localhost | Download's a webpage displays it on screen
@@ -133,6 +136,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   host (hostname) | Resolves the IP address from a hostname. Requires internet access.
   
 ## Packaging
+
   Directory | Description
   ------- | -----------
   dpkg -l | List all installed packages 
@@ -144,6 +148,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo apt dist-upgrade | On regular Linux systems upgrades the kernel and does major updates to some packages. Might not upgrade a Raspberry Pi kernel.
 
 ## User management
+
   Directory | Description
   ------- | -----------
   w | Show who's logged in, system uptime and load average.
@@ -152,6 +157,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo usermod -aG (groupname(s)) (username) | Add's a user to some groups. Anyone wanting access to serial ports must be in dialout group.
 
 ## Hardware
+
   Directory | Description
   ------- | -----------
   dmesg | Show kernel messages, useful for diagnosing problems
@@ -173,6 +179,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   cat /etc/udev/rules.d/52-arduino.rules | Special Udev rules for Arduino, creates a symlink in /dev/arduino to whatever serial port name the arduino has
   
   ### GPIO control
+  
   Directory | Description
   ------- | -----------
   sudo echo 18 > /sys/class/gpio/export | Allow access to pin 18
@@ -180,6 +187,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   sudo echo 1 > /sys/class/gpio/gpio18/value | Turn on pin 18
   
 ### Raspberry Pi Specific
+
   Directory | Description
   ------- | -----------
   sudo raspi-config | Raspberry pi hardware configuration utility
@@ -190,6 +198,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   vcgencmd measure_temp | measures CPU temperature
   
 ## Misc
+
   Directory | Description
   ------- | -----------
   date | Show current time and date.  Can also set date if run as root.
@@ -205,6 +214,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   
 
 ## Redirects
+
   Directory | Description
   ------- | -----------
   (command) > (filename) | Sends the output from (command) to (filename) and overwrites (filename)
@@ -216,6 +226,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
 
 
 ## Pipes
+
   cat (filename) | more
   cat /etc/systemd/system.conf  | more
   
@@ -227,6 +238,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
     
   
 ## Compression
+
   Directory | Description
   ------- | -----------
   zip -9 -r (zipfile) (directory) | zip all files in (directory) and store them in (zipfile)
@@ -248,6 +260,7 @@ Send output of tar to SSH, have SSH run the extract command on the remote system
 ```tar cvfz - <directory> | ssh <username>@<remotehost> 'tar xvfz -'```
 
 ## Finding things
+
   Directory | Description
   ------- | -----------
   grep (some text) (filename) | Finds text (and regular expressions) in a file
@@ -257,6 +270,7 @@ Send output of tar to SSH, have SSH run the extract command on the remote system
   find (directory name) -name (filename) -exec (some action) {} \\; | finds files and runs a program on them. {} is substitued for the filename.
   
 ## Text manipulation
+
   Directory | Description
   ------- | -----------
   cat (filename) \| cut -b 2-3 | Show the second and third character of each line in a file
@@ -270,6 +284,7 @@ Send output of tar to SSH, have SSH run the extract command on the remote system
   tr -d '\n' (filename) is the same as cat (filename) | tr -d '\n'
   
   ## Text Editors
+  
     Directory | Description
     ------- | -----------
       vi    | Very simple editor, a bit strange to use as it has command and insert modes. Press escape to switch between them. i inserts, a appends, :wq saves and exist,:q! exits without saving.
