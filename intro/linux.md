@@ -51,6 +51,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
 
   
  ### Filesystem structure
+ 
    Directory | Description
    ------- | -----------
    / | Root of the filesystem, contains everything else even if its on a different disk
