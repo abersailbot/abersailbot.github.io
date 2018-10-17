@@ -50,7 +50,6 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   * x = execute
 
 
-  
  ### Filesystem structure
  
    Directory | Description
@@ -178,7 +177,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   ls -l /dev/serial/by-id | List all serial devices by ID
   cat /etc/udev/rules.d/52-arduino.rules | Special Udev rules for Arduino, creates a symlink in /dev/arduino to whatever serial port name the arduino has
   
-  ### GPIO control
+### GPIO control
   
   Directory | Description
   ------- | -----------
@@ -283,8 +282,8 @@ Send output of tar to SSH, have SSH run the extract command on the remote system
   
   cut,awk,sed and tr can all work on input from both a pipe or they can be given a filename.
   tr -d '\n' (filename) is the same as cat (filename) | tr -d '\n'
-  
-  ## Text Editors
+   
+## Text Editors
   
   Directory | Description
   ------- | -----------
