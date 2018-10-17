@@ -2,7 +2,7 @@
 
 ## Logging in
 1. Connect to AberSailbot-dewi wifi
-2. ssh test@192.168.40.1```
+2. ssh test@192.168.40.1
 
 SSH is built into Windows 10 April 2018 update. If you have an older version download [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/) or [MobaXTerm](https://mobaxterm.mobatek.net/). 
 
@@ -249,6 +249,7 @@ SSH is built into Windows 10 April 2018 update. If you have an older version dow
   tar xvfz (targzfile) | Extract a tar.gz file
 
 ### Sending compressed files over a network
+
 On the receiving system, run nc and pipe its output to tar xvfz.
 ```nc -l <listenport> | tar xvfz -```
 
@@ -285,9 +286,9 @@ Send output of tar to SSH, have SSH run the extract command on the remote system
   
   ## Text Editors
   
-    Directory | Description
-    ------- | -----------
-      vi    | Very simple editor, a bit strange to use as it has command and insert modes. Press escape to switch between them. i inserts, a appends, :wq saves and exist,:q! exits without saving.
+  Directory | Description
+  ------- | -----------
+     vi    | Very simple editor, a bit strange to use as it has command and insert modes. Press escape to switch between them. i inserts, a appends, :wq saves and exist,:q! exits without saving.
       emacs | An operating system with a built in text editor. Press ctrl x ctrl c to exit.
       nano | More intuitive for beginners but less powerful than vi or emacs. Press ctrl x to exit.
       
