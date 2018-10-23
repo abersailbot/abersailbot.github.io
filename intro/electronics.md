@@ -73,11 +73,11 @@ They usually have a white or silver line across them marking the negative side. 
  
  They are represented by this symbol:
  
- ![Symbol for an LED](https://upload.wikimedia.org/wikipedia/commons/e/e5/LED_symbol.svg)
+ ![Symbol for an LED](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/LED_symbol.svg/320px-LED_symbol.svg.png)
  
  The positive side (anode) should have a longer leg. The negative side (cathode) is shorter and the edge of the plastic cover is flat. We need to limit the amount of current going through an LED. We do this with a resistor, without it the LED will get hot and eventually burn out, but it will work for a short time. The resistor should be placed between the negative side of the LED and the negative side of the battery or power supply. The circuit should look like this:
  
- ![Example LED circuit](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/100px-LED_circuit.svg.png)
+ ![Example LED circuit](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/240px-LED_circuit.svg.png)
  
 To find out what resistor to use we can guess, 330 ohm is typically a good value. Get the resistance too high and the LED will dim. Get it too low and it will get hot. Alternatively we can calculate it, but this needs a few parameters from the LEDs datasheet. If we don't have these we can guess with typical values. Use the calculator at https://www.kitronik.co.uk/blog/led-resistor-value-calculator/ to work this out. 
  
