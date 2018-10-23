@@ -88,7 +88,7 @@ To find out what resistor to use we can guess, 330 ohm is typically a good value
 ### Capacitors
  Capactiors store a small amount of electrical current. They are often used to smooth out unstable power supplies or to stop voltage drops when a heavy duty device (e.g. a motor) switches on. 
  
- The symbol for a capacitor is ![capacitor symbol](https://upload.wikimedia.org/wikipedia/commons/8/89/Capacitor_Symbol.svg).
+ The symbol for a capacitor is ![capacitor symbol](https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Capacitor_symbol.svg/274px-Capacitor_symbol.svg.png).
  
  Capactiance is measured in farads. A farad is quite a lot, most capacitors are pico (millionths) or micro (thousanths) of a fard. A one farad capacitor can store one coulomb of charge at one volt. One amp is equal to one coulomb per second. So a one farad capacitor, holds one amp-second at one volt. 
  
