@@ -94,9 +94,9 @@ To find out what resistor to use we can guess, 330 ohm is typically a good value
  
  There are lots of types of capacitors, the most common are ceramic capacitors which look like a round disc and are typically a dull yellow colour or electrolytic capacitors which look like a cylinder. 
  
- A ceramic capacitor ![ceramic capacitor](https://media.rs-online.com/t_thumb100/F3654650-01.jpg)
+ A ceramic capacitor ![ceramic capacitor](https://media.rs-online.com/t_large/R5381310-01.jpg)
  
- An electrolytic capacitor ![electrolytic capacitor](https://media.rs-online.com/t_thumb100/F3654650-01.jpg).
+ An electrolytic capacitor ![electrolytic capacitor](https://media.rs-online.com/t_large/F3654650-01.jpg).
  
  The polarity of an electrolytic capacitor matters! It has a big minus symbol on the negative side. The negative side is typically shorter. 
  
