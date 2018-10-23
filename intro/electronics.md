@@ -37,7 +37,7 @@
 
 Sometimes this symbol is used instead:
 
-[!IEC resistor symbol, a long rectangle](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Resistor_symbol_IEC.svg/320px-Resistor_symbol_IEC.svg.png)
+![IEC resistor symbol, a long rectangle](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Resistor_symbol_IEC.svg/320px-Resistor_symbol_IEC.svg.png)
   
 #### Ohm's Law
   
@@ -94,7 +94,7 @@ To find out what resistor to use we can guess, 330 ohm is typically a good value
  
  There are lots of types of capacitors, the most common are ceramic capacitors which look like a round disc and are typically a dull yellow colour or electrolytic capacitors which look like a cylinder. 
  
- A ceramic capacitor [!ceramic capacitor](https://media.rs-online.com/t_thumb100/F3654650-01.jpg)
+ A ceramic capacitor ![ceramic capacitor](https://media.rs-online.com/t_thumb100/F3654650-01.jpg)
  
  An electrolytic capacitor ![electrolytic capacitor](https://media.rs-online.com/t_thumb100/F3654650-01.jpg).
  
