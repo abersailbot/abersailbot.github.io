@@ -79,7 +79,7 @@ They usually have a white or silver line across them marking the negative side. 
  
  ![Example LED circuit](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/LED_circuit.svg/240px-LED_circuit.svg.png)
  
-To find out what resistor to use we can guess, 330 ohm is typically a good value. Get the resistance too high and the LED will dim. Get it too low and it will get hot. Alternatively we can calculate it, but this needs a few parameters from the LEDs datasheet. If we don't have these we can guess with typical values. Use the calculator at https://www.kitronik.co.uk/blog/led-resistor-value-calculator/ to work this out. 
+To find out what resistor to use we can guess, 330 ohm is typically a good value. Get the resistance too high and the LED will dim. Get it too low and it will get hot. Alternatively we can calculate it, but this needs a few parameters from the LEDs datasheet. If we don't have these we can guess with typical values. Use the calculator at [LED resistor calculator](https://www.kitronik.co.uk/blog/led-resistor-value-calculator/) to work this out. 
  
 [Find out more](https://learn.sparkfun.com/tutorials/light-emitting-diodes-leds)
  
