@@ -2,3 +2,4 @@
  * Week 2 - [Linux](linux)
  * Week 3 - [Electronics and Soldering](electronics)
  
+[Planned list of sessions](../intro_sessions_2018) (may be subject to change)
