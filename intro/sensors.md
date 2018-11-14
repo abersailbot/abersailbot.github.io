@@ -59,7 +59,12 @@ Idle at high state. One bit low to start a byte. 7 or 8 data bytes. One bit high
 
 Typically 5V or 3.3V signals on microcontrollers.
 
-Sometimes handshaking lines are uesd to show we've got data to send or are ready to recieve it. This is optional, often not used for things like GPS.
+Sometimes handshaking lines are uesd to show we've got data to send or are ready to recieve it. This is optional, often not used for things like GPS. 
+
+* Arduino and Raspberry Pi both have hardware serial port support. 
+* Software serial ports can be made by writing software which sets pins high/low at the right time or read's their state. 
+* USB serial converters common for Raspberry Pi, the Arduino and Xbee boards have one built in.
+
 
 ### RS232
 
@@ -138,14 +143,77 @@ Online string decoder https://rl.se/gprmc
 
 No need to write your own code to read this. GPSD on Linux does it for you! TinyGPS/TinyGPS++ libraries on Arduino
 
+See https://learn.sparkfun.com/tutorials/gps-basics
+
 # Compass
+
+Senses the earth's magnetic field to find the direction to north. Our compass is a Honeywell HMC6343. It costs about £100 but works well. The HMC5883 and 6352 are cheaper and simpler versions.
+
+Magnetic north isn't true north. Its constantly moving and different offsets needed in different places. Check it at http://www.magnetic-declination.com/
+
+Aberystwth about -2 degrees, East coast USA -15, West coast +13
+Big enough that we should compensate for it.
+
 
 ## I2C
 
+* Two wires, clock (SCL) and data (SDA) plus ground. Master generates clock. 
+* Only a master can initiate communication. It sends slave device address, register address. Device replies with data. 
+* Multidrop, every slave device has its own address
+* Addresses are 7 bit,0-127. Eighth bit controls if we are doing a ready or a write. Confusion often originates from whether addresses in datasheets are for 7 or 8 bits, there is no consitency!
+* Also known as TWI, Two Wire Interface.
+* Arduino and Raspberry Pi both have hardware I2C support.
+
+https://learn.sparkfun.com/tutorials/i2c
+
 ## Tilt compensation
 
+ * Simple compass sensors (hmc6352) only sense the magnetic field in one direction. When they tilt the heading changes. 
+ * 3 axis (hmc5883) sense magnetic field in three directions. You need to do calculations to convert 3 fields into a heading.
+ * Decent sensors calculate heading for you, might also add accelerometer and gyro sensors to improve accuracy of tilt estimate. The HMC6343 uses accelerometers. 
+ * Some sensors need to be placed flat when they startup. What if the compass reboots at sea?
+ 
 # Wind sensors
 
+* Senses wind direction 
+* A simple rotary potentiometer works, resistance varies with heading.
+* Needs to rotate continuously. Most potentiometers have a null point where they stop conducting. Most are logarithmic, not linear. 
+* Water and salt gets into the pot easily.
+* Magnetic sensor, effecitvely a compass
+* Magnet on the end of a shaft, layer of epoxy between sensor and magnet. 
+
+
 ## PWM
+* Austria Microsystems AS5040 sensor
+* Pulse Width Modulation output
+* Time spent high vs low shows value
+* 0% on = 0 degrees
+* 50% on = 180 degrees
+* 100% on = 359 degrees
+* pulse lasts 1ms 
+* Measure how long its high vs low. Pulse length = high time / 1ms. Multiply by 360 for degrees
+
+
 
 ## Ultrasonic sensors
+* Ultrasonic sound's time of flight altered by the wind
+* Measure difference between send and receive time. One transmitter, two receivers for x and y.
+* Sensors expensive, £500+
+* Good accuracy, works well in low wind.
+* Somewhat power hungry, 100mA, 12V
+* Heavyish, don't want extra weight at mast head
+* Often placed on their own pole nearer the deck. Distrubed by sail.
+* NMEA0183 output
+* Airmar sensors combine compass, wind sensor and GPS in one unit
+* We have one for Kitty
+
+![Rowind](http://www.furuno.dk/fileadmin/_processed_/csm_IMG_1701_646945a20d.jpg)
+
+## Filtering wind data
+* Inherently noisy
+* If we try to average we get problems around north. (359 + 1 ) / 2 = 180,should equal 0
+* Average sine and cosine separately. We use a decaying average. 
+
+s += (sin(wind_direction) - s) / r
+c += (cos(wind_direction) - c) / r
+
