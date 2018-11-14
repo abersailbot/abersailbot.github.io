@@ -22,6 +22,8 @@ calculates time difference between you and each satellite
 
 calculates 3D position (lat, lon, altitude) based on this.
 
+![Latitude and longitude](https://abagond.files.wordpress.com/2006/12/latitude_e_longitude_mudo.gif)
+
 accurate to around 5m in good conditions
 altitude less accurate, around 10m
 
@@ -143,13 +145,13 @@ Online string decoder https://rl.se/gprmc
 
 No need to write your own code to read this. GPSD on Linux does it for you! TinyGPS/TinyGPS++ libraries on Arduino
 
-See https://learn.sparkfun.com/tutorials/gps-basics
+See [Sparkfun GPS tutorial](https://learn.sparkfun.com/tutorials/gps-basics)
 
 # Compass
 
 Senses the earth's magnetic field to find the direction to north. Our compass is a Honeywell HMC6343. It costs about £100 but works well. The HMC5883 and 6352 are cheaper and simpler versions.
 
-Magnetic north isn't true north. Its constantly moving and different offsets needed in different places. Check it at http://www.magnetic-declination.com/
+Magnetic north isn't true north. Its constantly moving and different offsets needed in different places. Check it at [magnetic-declination.com](http://www.magnetic-declination.com/)
 
 Aberystwth about -2 degrees, East coast USA -15, West coast +13
 Big enough that we should compensate for it.
@@ -164,7 +166,7 @@ Big enough that we should compensate for it.
 * Also known as TWI, Two Wire Interface.
 * Arduino and Raspberry Pi both have hardware I2C support.
 
-https://learn.sparkfun.com/tutorials/i2c
+More info [Sparkfun I2C tutorial](https://learn.sparkfun.com/tutorials/i2c)
 
 ## Tilt compensation
 
