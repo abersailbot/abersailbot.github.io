@@ -27,6 +27,9 @@ calculates 3D position (lat, lon, altitude) based on this.
 accurate to around 5m in good conditions
 altitude less accurate, around 10m
 
+[GPS comparison](gps_comparison.png)
+[GPS errors](gps_err_example_big.png)
+
 needs clear view of the sky and 4+ satellites
 you should get around 10 on a good day outdoors
 
