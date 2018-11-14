@@ -109,35 +109,60 @@ Data is comma separated ends with a * and a checksum
 `$GPGGA,HHMMSS.SSS,DDMM.MMMM,N/S,DDDMM.MMMM,W/E,Fix type,Number of sats,HDOP,Altitude,Geoid height,DGPS update time,DGPS reference*Checksum`
 
 `HH = Hours`
+
 `MM = Minutes`
+
 `SS.SSS = Seconds`
+
 `DD = degrees (longitude)`
+
 `MM.MMMM = Minutes (longitude)`
+
 `N/S = Northern or Southern Hemisphere`
+
 `DDD = degrees (latitude)`
+
 `MM.MMMM = Minutes (latitude)`
+
 `E/W = Easter or Western Hemisphere`
+
 `Fix type 0 = invalid,1 valid GPS, 2 valid DGPS`
+
 `Number of satellites in use`
+
 `HDOP = horizontal dillution of precision, should be under 2(ish)`
+
 `Altitude = metres above mean sea level`
+
 `Geoid height = Height difference between ellipsoid (perfectly round) and geoid (jaggedy model shape)`
+
 `DGPS update time = usually empty as we don't have DGPS`
+
 `DGPS reference = as above`
+
 `Checksum = calculatd by XOR'ing all characters except the $ together.`
 
 
 `$GPGGA,182214.000,5224.9494,N,00403.9385,W,1,04,2.1,91.3,M,51.2,M,,0000*79`
 
 `Time = 18:22:14 `
+
 `Latitude = 52 degrees, 24.9494 minutes North`
+
 `Longitude = 4 degrees, 3.9385 minutes West`
+
 `Valid fix`
+
 `4 satellites`
+
 `2.1 HDOP`
+
 `91.3M above sea level`
+
 `Geoid is 51.2M above elipsoid`
+
 `no DGPS data`
+
 `79 checksum`
 
 NMEA strings reference see http://aprs.gids.nl/nmea/
