@@ -25,29 +25,29 @@
  * Reads GPS via gpsd
  * Simple protocol to arduino, 'c' = get compass, 'w' = get wind, 'r' = set rudder, 's' = set sail
  
- #### [dewi-arduino](https://github.com/abersailbot/dewi-arduino/blob/master/src/dewi.ino)
+#### [dewi-arduino](https://github.com/abersailbot/dewi-arduino/blob/master/src/dewi.ino)
   * Only bit not in Python, only 180 lines
   * Listens for c,w,r and s commands. Expects r/s to be followed by a number. 
   * Responses from c/w are wrapped in JSON notation
   
- ## Plugins
+## Plugins
   * Extends boatd functionality
   * Plugins for logging and mavlink telemetry
  
- ## Configuration
+## Configuration
  * [example config](https://github.com/boatd/boatd/blob/master/boatd-config.yaml.example)
  * YAML file
  * defines waypoints file, boatd port, plugins, drivers, behaviours
- ### Waypoints file
+### Waypoints file
  
   
- ## Other boatd utils
- ### [boatd-opencpn](https://github.com/boatd/boatd-opencpn)
+## Other boatd utils
+### [boatd-opencpn](https://github.com/boatd/boatd-opencpn)
   * Sends NMEA GPS, compass, wind and rudder position strings to the openCPN chart plotter.
   * Bug in rudder position
   * Requires a web connection to boatd, only works over wifi right now.
   
- ### [cboatd](https://github.com/boatd/cboatd)
+### [cboatd](https://github.com/boatd/cboatd)
   * simple console output of boatd's state
 
 # Boatdclient
