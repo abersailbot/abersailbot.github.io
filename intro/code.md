@@ -74,7 +74,7 @@
 * Will correct steady error. If something stops us turning for a while integral error builds up, when we do turn it can over power the system.
 * Solution is to gradually decay the integral error,multiply by 0.99 each time round the loop.
 * Derivative control looks at rate of change in the error, we don't use it.
-* https://www.youtube.com/watch?v=fusr9eTceEo
+* [PID video](https://www.youtube.com/watch?v=fusr9eTceEo)
 ##### cross track minimisation
 * Measure distance between line from A to B and our current position.
 * Correct by turning back towards the line.
