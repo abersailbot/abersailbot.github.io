@@ -4,5 +4,7 @@
  * Week 4 - [Raspberry Pi](raspberrypi)
  * Week 5 - [Git](git)
  * Week 6 - [Sensors](sensors)
+ * Week 7 - [Python](python)
+ * Week 8 - [How our code works](code)
  
 [Planned list of sessions](../intro_sessions_2018) (may be subject to change)
