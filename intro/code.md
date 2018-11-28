@@ -1,6 +1,8 @@
 # Boatd
 ![boatd arch](https://boatd.readthedocs.io/en/latest/_images/boatd-arch.png)
+
 ![kragniz](https://pbs.twimg.com/media/CkkXVe1XAAADCIk.jpg)
+
 [boatd docs](https://boatd.readthedocs.io/en/latest/)
 
 * Web API for boat information
@@ -13,7 +15,7 @@
  * /waypoints gets waypoints list, can also send a waypoint list
  * /behaviours shows which behaviours are loaded/running
  
- ## Drivers
+## Drivers
   * Interface to hardware or simulator
   * Driver can be changed via config
   
@@ -103,9 +105,9 @@
 * Main behaviour
 * follows a list of waypoints loaded from a file
 
-### (looped-waypoints-behaviour)[https://github.com/abersailbot/dewi-behaviour/blob/master/looped-waypoint-behaviour]
+### [looped-waypoints-behaviour](https://github.com/abersailbot/dewi-behaviour/blob/master/looped-waypoint-behaviour)
 * like waypoint behaviour but goes back to first waypoint at the end
 
-### (station-keeping-behaviour)[https://github.com/abersailbot/dewi-behaviour/blob/master/station-keeping-behaviour]
+### [station-keeping-behaviour](https://github.com/abersailbot/dewi-behaviour/blob/master/station-keeping-behaviour)
 * Tries to stay in a box for 5 minutes exactly
 * sails to centre and then leaves 
