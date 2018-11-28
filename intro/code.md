@@ -111,3 +111,12 @@
 ### [station-keeping-behaviour](https://github.com/abersailbot/dewi-behaviour/blob/master/station-keeping-behaviour)
 * Tries to stay in a box for 5 minutes exactly
 * sails to centre and then leaves 
+
+# Simulator
+* [Sailsd](https://github.com/sails-simulator/sailsd), also by Louis Taylor (kragniz)
+* [libsailing](https://github.com/sails-simulator/libsailing) provides physics model to sailsd.
+* Interfaces to boatd with its own driver
+* Sails runs its own protocol for communitcating internally between its server and GUI (sails-ui). GUI only for output, doesn't need to run.
+* slightly modified [behaviour](https://github.com/abersailbot/simulator-behaviour) based on dewi's behaviours. Different tacking angles, rudder gains and sail angles.
+
+
