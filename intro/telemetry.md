@@ -53,6 +53,9 @@ Used in remote controls, wireless temperature sensors,
 * Communication modules interfaced via a serial port, USB or WiFi.
 * Full TCP/IP stack or AT commands
 !(GSM modem)[https://cdn.shopify.com/s/files/1/2311/3697/products/lonet-808-mini-gsmgprs-gps-breakout-gprs-cellular-seeed-cool-components_513_x700.jpg?v=1537356119]
+## Radio control system
+* 2.4 GHz handheld unit
+!(remote control)[../DSC09346.JPG]
 
 
 # Telemetry Software and Protocols
@@ -64,13 +67,14 @@ Used in remote controls, wireless temperature sensors,
 ## APMplanner2
 * Mavlink ground station for drones.
 * Can send waypoints or read waypoint list from drone. Boatd doesn't fully support this yet.
-
+!(APMPlanner2)[https://raw.githubusercontent.com/abersailbot/media/master/presentation/photos/telemetry.jpg]
 ## NMEA
 * Standard format for marine electronics. Lots of software to decode it.
 ## OpenCPN
 * Chart plotting program for boats
 * Displays NMEA data from GPS, compass, wind sensors etc.
-## Jim's Monitor program
+!(opencpn)[opencpn_ais.png]
+## Jim Finni's Monitor program
 * Used in Minty2, BeagleB etc.
 * UDP input, key value pairs, must start with time=(unixtime), must include lat and lon to display a map.
 * serial2udp bridge
@@ -81,4 +85,5 @@ https://github.com/jimfinnis/monitor
 * GSM based trackers for each boat
 * Web API to read data
 * Live map
+* 
 
