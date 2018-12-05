@@ -52,10 +52,10 @@ Used in remote controls, wireless temperature sensors,
 * Relies on 3rd party network, coverage needed
 * Communication modules interfaced via a serial port, USB or WiFi.
 * Full TCP/IP stack or AT commands
-!(GSM modem)[https://cdn.shopify.com/s/files/1/2311/3697/products/lonet-808-mini-gsmgprs-gps-breakout-gprs-cellular-seeed-cool-components_513_x700.jpg?v=1537356119]
+![GSM modem](https://cdn.shopify.com/s/files/1/2311/3697/products/lonet-808-mini-gsmgprs-gps-breakout-gprs-cellular-seeed-cool-components_513_x700.jpg?v=1537356119)
 ## Radio control system
 * 2.4 GHz handheld unit
-!(remote control)[../DSC09346.JPG]
+![remote control](../DSC09346.JPG)
 
 
 # Telemetry Software and Protocols
@@ -81,6 +81,7 @@ Used in remote controls, wireless temperature sensors,
 * Customisable UI.
 * Transmits waypoints well over unreliable links.
 https://github.com/jimfinnis/monitor
+![jim's monitor program](monitor_screenshot.png)
 ## WRSC tracking system
 * GSM based trackers for each boat
 * Web API to read data
