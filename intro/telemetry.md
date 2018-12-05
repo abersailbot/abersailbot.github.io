@@ -26,7 +26,8 @@ Used in remote controls, wireless temperature sensors,
 * Can be turned into a mesh, pre-designated coordinators, repeaters and end nodes.
 * Remotely read/control I/O pins
 * 2.4 GHz or 868/915 MHz versions available
-* Fairly expensive, £30+ per module
+* Fairly expensive, £45+ per module
+![Xbee](https://cdn.shopify.com/s/files/1/2311/3697/products/xbee-pro-50mw-module-with-rpsma-series-zb-wireless-zigbee-digi-cool-components_188_x700.jpg?v=1537313202)
 ## WiFi
 * Short range (a few hundred metres), high bandwidth (1-300 mbps), full network stack
 * Various hacks to turn into a mesh or repeat signal. Significant problems with some of these.
@@ -34,8 +35,9 @@ Used in remote controls, wireless temperature sensors,
 ## Moteino/RFM69
 * Short/medium range, low bandwidth (10s of kbps), packet interface, meshable
 * Arduino with radio module
-* 433 MHz
+* 433 or 915 MHz
 * Cheap, £5-10 per module 
+![Moteino](https://lowpowerlab.com/shop/image/data/Moteino/MoteinoRFConnectors.jpg)
 ## LoRA
 ![Lora Spectrum](https://revspace.nl/images/d/d2/DecodingLora_Project.jpg)
 * Very low bandwidth ( 250 to 5470 bits per second), low power, long range (10s of kms)
@@ -50,14 +52,8 @@ Used in remote controls, wireless temperature sensors,
 * Relies on 3rd party network, coverage needed
 * Communication modules interfaced via a serial port, USB or WiFi.
 * Full TCP/IP stack or AT commands
+!(GSM modem)[https://cdn.shopify.com/s/files/1/2311/3697/products/lonet-808-mini-gsmgprs-gps-breakout-gprs-cellular-seeed-cool-components_513_x700.jpg?v=1537356119]
 
-
-## Amateur Radio Technologies
-### RTTY
-### APRS
-### PSK31
-### WSPR
-### JT65 
 
 # Telemetry Software and Protocols
 ## Mavlink
