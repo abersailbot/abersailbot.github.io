@@ -38,9 +38,10 @@ Used in remote controls, wireless temperature sensors,
 * Cheap, £5-10 per module 
 ## LoRA
 ![Lora Spectrum](https://revspace.nl/images/d/d2/DecodingLora_Project.jpg)
-* https://revspace.nl/DecodingLora
 * Very low bandwidth ( 250 to 5470 bits per second), low power, long range (10s of kms)
 * Very clever chirp modulation, varies frequency as it transmits. Good noise immunity.
+* Intended for IoT scenarios with small numbers of base stations per city, lots of devices reporting. e.g. power meters
+* proprietary patented protocol, open source reverse engineering see https://revspace.nl/DecodingLora
 ## GSM/UMTS/LTE
 * Mobile phone systems, long range (10s of KMs), low to high bandwidth (10kbps to 100 mbps)
 * Telemetry via SMS text message or over the internet
@@ -60,9 +61,19 @@ Used in remote controls, wireless temperature sensors,
 
 # Telemetry Software and Protocols
 ## Mavlink
+* Binary protocol for drone communication.
+* Basically a clever way to send a data structure over a network.
+* Code to convert an XML message definition to code.
+* Some common message formats pre-defined. See [mavlink example](https://en.wikipedia.org/wiki/MAVLink#Messages)
 ## APMplanner2
+* Mavlink ground station for drones.
+* Can send waypoints or read waypoint list from drone. Boatd doesn't fully support this yet.
+
 ## NMEA
+* Standard format for marine electronics. Lots of software to decode it.
 ## OpenCPN
+* Chart plotting program for boats
+* Displays NMEA data from GPS, compass, wind sensors etc.
 ## Jim's Monitor program
 * Used in Minty2, BeagleB etc.
 * UDP input, key value pairs, must start with time=(unixtime), must include lat and lon to display a map.
@@ -71,3 +82,7 @@ Used in remote controls, wireless temperature sensors,
 * Transmits waypoints well over unreliable links.
 https://github.com/jimfinnis/monitor
 ## WRSC tracking system
+* GSM based trackers for each boat
+* Web API to read data
+* Live map
+
