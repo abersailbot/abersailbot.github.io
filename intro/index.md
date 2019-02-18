@@ -6,5 +6,6 @@
  * Week 6 - [Sensors](sensors)
  * Week 7 - [Python](python)
  * Week 8 - [How our code works](code)
+ * Week 9 - [How to sail and basic naval architecture](sailing)
  
 [Planned list of sessions](../intro_sessions_2018) (may be subject to change)
