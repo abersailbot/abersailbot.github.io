@@ -64,6 +64,7 @@ deeper keels keep boat upright better
 harder to operate in shallow water, more drag
 detachable better for transport
 point of weakness
+![Queen's University boat North Star out of the water](northstar.jpg)
 
 ## Mast
 taller mast gets cleaner winds
