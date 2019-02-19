@@ -1,4 +1,5 @@
 # Parts of the boat
+![Parts of Dewi](boatparts.png)
 
 # Points of sail
 
@@ -16,6 +17,13 @@
 Zig Zagging to travel upwind.
 ![Dewi tacking upwind](tackingmap.png)
 
+### Downwind tacking
+Sailing straight down wind can be unstable, lots of rudder input required to keep on a straight line. Boom may inadvertently swing across in a gybe. Safer to sail on a broad reach and tack/gybe occasionally. 
+
+### Goose swinging
+Putting the jib and main on opposite sides while sailing downwind. More stable and the main doesn't block the jib. Known as "wing on wing" by Americas.
+![Dewi Gooseswinging](gooseswing.png)
+
 ## Reefing
 Making the sail smaller for strong wind conditions. Usually the sail is wrapped around the boom.
 ![Reefing](http://www.spinnaker-sailing.com/sites/default/files/imagefield_thumbs/reefa.gif)
@@ -28,10 +36,14 @@ Active control needed, power hungry,needs constant computer attention
 ![BealgeB sailing close hauled](BeagleClose.jpg)
 ![BeagleB sailing on a run](BeagleRun.jpg)
 
+### Wing sails are hard to reef
+![reefing BeagleB's sail](reefwing.jpg)
+
 ## Tailed wing sails
 Steering a small tail sets the target sail position. Sail passively keeps itself in position.
 ![Brazilian Wing Sailbot at Sailbot 2017](BrailWing.jpg)
 ![A small wing sail boat at Sailbot 2017](SmallWing.jpg)
+
   
 ## Asymetric wing
 only works on one tack, ok for sailing a long way in the same direction
