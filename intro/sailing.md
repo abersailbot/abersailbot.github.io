@@ -1,4 +1,5 @@
 # Parts of the boat
+![Parts of Dewi](boatparts.png)
 
 # Points of sail
 
@@ -35,10 +36,14 @@ Active control needed, power hungry,needs constant computer attention
 ![BealgeB sailing close hauled](BeagleClose.jpg)
 ![BeagleB sailing on a run](BeagleRun.jpg)
 
+### Wing sails are hard to reef
+![reefing BeagleB's sail](reefwing.jpg)
+
 ## Tailed wing sails
 Steering a small tail sets the target sail position. Sail passively keeps itself in position.
 ![Brazilian Wing Sailbot at Sailbot 2017](BrailWing.jpg)
 ![A small wing sail boat at Sailbot 2017](SmallWing.jpg)
+
   
 ## Asymetric wing
 only works on one tack, ok for sailing a long way in the same direction
