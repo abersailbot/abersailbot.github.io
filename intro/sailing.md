@@ -9,6 +9,13 @@
 ##  Polar Diagrams
 ![Polar Diagrams](https://upload.wikimedia.org/wikipedia/commons/2/29/Downwind_polar_diagram_to_determine_velocity_made_good_at_various_wind_speeds.jpg)
 
+### Same data in linear graph
+![Maximoop speed predictions](maximoop_speed.png)
+
+## Tacking
+Zig Zagging to travel upwind.
+![Dewi tacking upwind](tackingmap.png)
+
 ## Reefing
 Making the sail smaller for strong wind conditions. Usually the sail is wrapped around the boom.
 ![Reefing](http://www.spinnaker-sailing.com/sites/default/files/imagefield_thumbs/reefa.gif)
