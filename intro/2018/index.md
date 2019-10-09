@@ -1,4 +1,4 @@
- * Week 1 - [Introduction to Robotic Sailing](https://docs.google.com/presentation/d/1mXyZDn5pAF8RJxOnn1lrPGc7aDZVtBYQPLyOgx8LrN8/edit?usp=sharing)
+ * Week 1 - [Introduction to Robotic Sailing](https://docs.google.com/presentation/d/1mXyZDn5pAF8RJxOnn1lrPGc7aDZVtBYQPLyOgx8LrN8/edit?usp=sharing) [Panoptop Recording](https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=4121f066-6dfe-4974-87f8-a97500f718b0)
  * Week 2 - [Linux](linux)
  * Week 3 - [Electronics and Soldering](electronics)
  * Week 4 - [Raspberry Pi](raspberrypi)
