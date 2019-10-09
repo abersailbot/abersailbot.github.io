@@ -1,5 +1,9 @@
 # Introduction to Linux for Robotic Sailing
 
+## Panopto Recording
+
+https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=6481f970-e23d-4079-9e8a-a97c0099a33b
+
 ## Logging in
 1. Connect to AberSailbot-dewi wifi
 2. ssh test@192.168.40.1
