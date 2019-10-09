@@ -1,3 +1,7 @@
+# Panopto Recording
+
+https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=57846f89-2df1-4b50-b0c8-a9ad00a8d639
+
 # Radio Basics
 * Electromagnetic wave
 * Frequency from KHz to GHz. Wavelengths kilometres to centimetres. Equivalent to colour.
