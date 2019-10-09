@@ -1,5 +1,11 @@
 # A quick intro to Python
 
+## Panopto Recording
+
+https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a6f4e61d-4f6d-42fb-95fc-a99f00a9410b
+
+https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3447fe65-9925-4a95-8d45-a99f00af9820
+
 ## Background
   * Interpreted, cross platform, 
   * Pros: Data manipulation, easy(ish) to learn the basics, popular, open source, loads of libraries, compact syntax, good as a beginners language and a serious one.
