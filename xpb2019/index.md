@@ -1,4 +1,4 @@
-# eXperimental Polystyrene Boats Competiton 2019
+# AberSailbot eXperimental Polystyrene Boats Competiton 2019
 
 ## Aims
 
