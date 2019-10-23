@@ -2,6 +2,10 @@
 
 ## Getting Started
 
+### 5 minute intro to Git Slides
+
+https://github.com/abersailbot/abersailbot.github.io/raw/master/intro/Git%20Slides.pdf
+
 ### Setup
 * Install git on your machine. 
     * On Linux, install git using your package manager
