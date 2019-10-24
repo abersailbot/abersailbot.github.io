@@ -4,7 +4,7 @@
 
 ### 5 minute intro to Git Slides
 
-https://github.com/abersailbot/abersailbot.github.io/raw/master/intro/Git%20Slides.pdf
+[slides](https://github.com/abersailbot/abersailbot.github.io/raw/master/intro/Git%20Slides.pdf)
 
 ### Setup
 * Install git on your machine. 
