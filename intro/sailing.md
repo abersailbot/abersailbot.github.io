@@ -1,5 +1,3 @@
-# Panopto Recording
-
 # Parts of the boat
 ![Parts of Dewi](sailing_images/boatparts.png)
 
