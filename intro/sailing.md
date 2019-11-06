@@ -1,5 +1,4 @@
 # Panopto Recording
-https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=863d3462-43df-4d52-ae2c-a9f900c93428
 
 # Parts of the boat
 ![Parts of Dewi](boatparts.png)
@@ -25,7 +24,7 @@ Sailing straight down wind can be unstable, lots of rudder input required to kee
 
 ### Goose swinging
 Putting the jib and main on opposite sides while sailing downwind. More stable and the main doesn't block the jib. Known as "wing on wing" by Americas.
-![Dewi Gooseswinging](gooseswing.png)
+![Dewi Gooseswinging](gooseswing.jpg)
 
 ## Reefing
 Making the sail smaller for strong wind conditions. Usually the sail is wrapped around the boom.
@@ -44,7 +43,7 @@ Active control needed, power hungry,needs constant computer attention
 
 ## Tailed wing sails
 Steering a small tail sets the target sail position. Sail passively keeps itself in position.
-![Brazilian Wing Sailbot at Sailbot 2017](BrailWing.jpg)
+![Brazilian Wing Sailbot at Sailbot 2017](BrazilWing.jpg)
 ![A small wing sail boat at Sailbot 2017](SmallWing.jpg)
 
   
