@@ -2,9 +2,6 @@
 
 ## Panopto Recording
 
-https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a6f4e61d-4f6d-42fb-95fc-a99f00a9410b
-
-https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3447fe65-9925-4a95-8d45-a99f00af9820
 
 ## Background
   * Interpreted, cross platform, 
@@ -80,6 +77,9 @@ https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=3447fe65-9925-
   * Published via [pypi](https://pypi.org/) website
 
 ### Virtual env
+  * Segregate your pip installs for different applications
+  * Each env has to be "activated" when you want to use it
+  * Env's saved in your home directory.
 
 ## Python 2 vs 3
   * Python version 2 and 3 have some differences
