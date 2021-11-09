@@ -5,7 +5,7 @@
 * Cheap, under £30
 * Runs Linux, operating system stored on SD card
 * Power of desktop computer from early 2000s
-* 512MB or 1GB RAM
+* 512MB to 4GB of RAM
 * Lots of I/O facilities
 * Aimed as teaching platform, used heavily by roboticists, hobbyists, makers etc
 
@@ -49,7 +49,7 @@ Better CPU thermal management, faster clock speed. Faster WiFi. Faster ethernet.
 
 ### Pi 4 B
 
-USB 3, faster ethernet, 2/4GB RAM options, dual display, faster processor.
+USB 3, faster ethernet, 1/2/4GB RAM options, dual display, faster processor.
 ![Pi 4 B](https://www.seeedstudio.site/media/catalog/product/cache/ab187aaa5f626ad16c8031644cd2de5b/4/g/4g.png)
 
 
@@ -64,6 +64,9 @@ No ethernet, micro HDMI and micro USB host.
 
 ### Pi Zero W
 Wifi/bluetooth enabled Pi Zero.
+
+### Pi Zero 2W
+Faster quad core version of the Pi Zero, comparable to performance of Pi 3, but only 512MB of RA.
 
 ### Performance Comparison 
 
