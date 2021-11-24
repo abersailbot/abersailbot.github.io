@@ -6,7 +6,7 @@
 * Introduction to OpenSCAD (Alex) - November 3rd 2021 (Online, [recording link](https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=28574a56-5998-4282-ad5a-add501640f33) )
 * Introduction to [Linux command line/Raspberry Pi](linux) - November 10th 2021 (DSL MP-1.13)
 * [Sensors for robotic sailing: GPS, compass and wind sensing](sensors) - November 17th 2021 (DSL MP 1-1.13)
-* Introduction to our code: Running Boatd - November 24th 2021 (DSL MP 1-1.13)
+* [Introduction to our code: Running Boatd](boatd) - November 24th 2021 (DSL MP 1-1.13)
 * How we communicate with the boat, Telemetry and Ground stations. - December 1st 2021 (DSL MP 1-1.13)
 * Essential Linux commands for robotic sailing: SSH keys, mosh and tmux - December 8th 2021 (DSL MP 1-1.13)
 * Introduction to Git
