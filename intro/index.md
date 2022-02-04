@@ -9,7 +9,7 @@
 * [Introduction to our code: Running Boatd](boatd) - November 24th 2021 (DSL MP 1-1.13)
 * [How we communicate with the boat, Telemetry and Ground stations.](telemetry) - December 1st 2021 (DSL MP 1-1.13)
 * [How to sail](sailing) -  December 8th 2021 (DSL MP 1-1.13)
-* [Introduction to Git](Git) - February 4th 2022 (DSL)
+* [Introduction to Git](git) - February 4th 2022 (DSL)
 * Essential Linux commands for robotic sailing: SSH keys, mosh and tmux -
 * Introduction to Python 
 
