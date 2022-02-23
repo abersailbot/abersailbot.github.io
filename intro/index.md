@@ -12,5 +12,6 @@
 * Introduction to Git - December 15th
 * Essential Linux commands for robotic sailing: SSH keys, mosh and tmux -
 * Introduction to Python 
+* [Introduction to Electronics and Soldering](electronics) - February 23rd 2022
 
 
