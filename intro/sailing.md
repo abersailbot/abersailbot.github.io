@@ -8,9 +8,9 @@ https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=863d3462-43df-
 
 Rigging Instructions Videos:
 
- * ![Part 1](https://www.youtube.com/watch?v=ZN1mIDve0pk)
- * ![Part 2](https://www.youtube.com/watch?v=c_wlABofnBg)
- * ![Mast removal instructions](https://www.youtube.com/watch?v=ZqXYH8u4nAE)
+ * [Part 1](https://www.youtube.com/watch?v=ZN1mIDve0pk)
+ * [Part 2](https://www.youtube.com/watch?v=c_wlABofnBg)
+ * [Mast removal instructions](https://www.youtube.com/watch?v=ZqXYH8u4nAE)
 
 # Points of sail
 
