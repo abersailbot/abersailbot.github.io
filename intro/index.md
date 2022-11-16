@@ -8,8 +8,8 @@
 * [Introduction to Git](git) - w/c Oct 24th
 * Introduction to OpenSCAD (Alex) - w/c Oct 31st
 * [Introduction to Electronics and Soldering](electronics) - w/c Nov 7th
-* [Sensors for robotic sailing: GPS, compass and wind sensing](sensors) - w/c Nov 14th
-* [How to sail](sailing) -  w/c Nov 21st
+* [How to sail](sailing) -  w/c Nov 14th
+* [Sensors for robotic sailing: GPS, compass and wind sensing](sensors) - w/c Nov 21st
 * Boat Off Competition - w/c Nov 28th
 
 ## Semester Two:
