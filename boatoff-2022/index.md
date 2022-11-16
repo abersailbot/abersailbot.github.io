@@ -1,10 +1,14 @@
 # The Great Aberystwyth Boatoff Competition 2022
 
+Version 1.0 
+
+November 16th 2022
+
 ## Aims
 
 This competition aims to introduce new AberSailbot members to robotic sailing and the systems used in AberSailbot's other boats.
 Each team will race a 1m long polystyrene boat in a mini competition on the weekend of December 3rd/4th or 10th/11th 2022. This will take place in Aberystwyth Harbour, if the weather is bad the competiton will be delayed.
-Each team will be given all the equipment they need, the software and hardware used will be almost identical to the standard AberSailbot stack.
+Each team will be given most of the equipment they need, the software and hardware used will be very similar to what we plan to use on our RC Laser boat.
 
 ## Equipment
 
@@ -20,7 +24,7 @@ Each team will receive the following:
 * GPS
 * Rudder Servo
 * Wire
-* 2x batteries
+* Batteries
 * Waterproof electronics box
 * Cable glands
 * Rigging String
@@ -72,7 +76,7 @@ An automated scoring system will score the functionality part.
  * Impress the judges - 25%
     Do something that impresses the judges. This might include:
     * Failing with style
-    * Giving the judges beer
+    * Giving the judges cake/chocolate/beer
     * Demonstrate extra sailing capabilities
     * Technical innovation
     * Creative problem solving
