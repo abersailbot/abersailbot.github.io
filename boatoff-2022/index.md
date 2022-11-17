@@ -31,7 +31,7 @@ Each team will receive the following:
 
 ### Assembly Required:
 
-* Coat the hull
+* (if required) Coat/paint the hull
 * Make a sail
 * Install and modify the software
 * Install the rudder servo
