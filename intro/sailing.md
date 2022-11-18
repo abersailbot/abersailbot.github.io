@@ -38,6 +38,11 @@ Making the sail smaller for strong wind conditions. Usually the sail is wrapped 
 
 ![Dewi's Storm Sails](stormsails.jpg)
 
+# Sailing video
+
+https://www.youtube.com/watch?v=NCdnidaYW2I&t=18s
+
+
 # Wing Sails
 ## Direct drive
 Active control needed, power hungry,needs constant computer attention
