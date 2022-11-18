@@ -1,6 +1,3 @@
-# Panopto Recording
-https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=863d3462-43df-4d52-ae2c-a9f900c93428
-
 # Parts of the boat
 ![Parts of Dewi](boatparts.png)
 
@@ -14,7 +11,7 @@ Rigging Instructions Videos:
 
 # Points of sail
 
-![Points of Sail](https://www.rya.org.uk/SiteCollectionImages/email/inbrief14/Points-of-sail2.jpg)
+![Points of Sail](https://en.wikipedia.org/wiki/File:Points_of_sail.svg)
 
 [Points of Sail video](https://www.youtube.com/watch?v=tYo5tvojU0I)
 
