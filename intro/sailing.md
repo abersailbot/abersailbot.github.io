@@ -55,7 +55,7 @@ Steering a small tail sets the target sail position. Sail passively keeps itself
   
 ## Asymetric wing
 only works on one tack, ok for sailing a long way in the same direction
-![Asymetric Wing Sailed MaxiMoop](MaxiMoopWing.jpg)
+![Asymetric Wing Sailed MaxiMoop](sailing_images/MaxiMoopWing.jpg)
   
 ## Sail size trade off
 bigger sail = more power, but more heeling
@@ -72,11 +72,11 @@ deeper keels keep boat upright better
 harder to operate in shallow water, more drag
 detachable better for transport
 point of weakness
-![Queen's University boat North Star out of the water](northstar.jpg)
+![Queen's University boat North Star out of the water](sailing_images/northstar.jpg)
 
 ## Mast
 taller mast gets cleaner winds
 pushes you over more
 
-![Dewi Sailing against the Sailbot Class Exit Strategy](USNAvsDewi.jpg)
+![Dewi Sailing against the Sailbot Class Exit Strategy](sailing_images/USNAvsDewi.jpg)
 
