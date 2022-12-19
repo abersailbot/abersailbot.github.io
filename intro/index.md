@@ -4,7 +4,7 @@
 
 (time and date to be determined)
 
-* Background to Aber Sailbot, why do robotic sailing. - w/c Oct 17th
+* Background to Aber Sailbot, why do robotic sailing. - w/c Oct 17th - [Panopto Recording](https://aberystwyth.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=69d560ee-ca66-4412-833d-af35010a2640)
 * [Introduction to Git](git) - w/c Oct 24th
 * [Introduction to OpenSCAD](https://github.com/abersailbot/2021-CAD-Tutorial) - w/c Oct 31st
 * [Introduction to Electronics and Soldering](electronics) - w/c Nov 7th
