@@ -15,6 +15,9 @@ Official docs - https://espressif-docs.readthedocs-hosted.com/projects/arduino-e
 * Open settings, "Additional Board Manager URLs" and enter https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 * Ok this and install
 * Restart the IDE
+* Go to Tools->Board->Boards Manager
+* Type in esp32 and click install
+* 
 
 
 ### Installing extra packages
