@@ -65,7 +65,7 @@ Used in remote controls, wireless temperature sensors,
 ## APMplanner2
 * Mavlink ground station for drones.
 * Can send waypoints or read waypoint list from drone. Boatd doesn't fully support this yet.
-!(APMPlanner2)[https://raw.githubusercontent.com/abersailbot/media/master/presentation/photos/telemetry.jpg]
+![APMPlanner2](https://raw.githubusercontent.com/abersailbot/media/master/presentation/photos/telemetry.jpg)
 
 ## NMEA
 * Standard format for marine electronics. Lots of software to decode it.
@@ -74,10 +74,10 @@ Used in remote controls, wireless temperature sensors,
 ## OpenCPN
 * Chart plotting program for boats
 * Displays NMEA data from GPS, compass, wind sensors etc.
-!(opencpn)[opencpn_ais.png]
+![opencpn](opencpn_ais.png)
 
 ### Try it yourself
-(Download OpenCPN)[https://www.opencpn.org/OpenCPN/info/downloadopencpn.html]
+[Download OpenCPN](https://www.opencpn.org/OpenCPN/info/downloadopencpn.html)
 
 #### Configure a new data source
 * open OpenCPN
@@ -88,9 +88,9 @@ Used in remote controls, wireless temperature sensors,
 
 #### Add some maps
 
-* Download a (map of Aber)[https://github.com/abersailbot/maps/raw/master/Aberystwyth_North-Centre.kap]
+* Download a [map of Aber](https://github.com/abersailbot/maps/raw/master/Aberystwyth_North-Centre.kap)
 * Save it to your computer, OpenCPN might have created a Charts directory in your home directory.
 * Go to tools->options and choose Charts. 
 * Click Add Directory and add the directory you saved the map to. 
 * Click Apply and it should add the map, when you zoom in on Aberystwyth you should see a proper map.
-* More maps are available in the (maps repository on our github)[https://github.com/abersailbot/maps].
+* More maps are available in the [maps repository on our github](https://github.com/abersailbot/maps)
